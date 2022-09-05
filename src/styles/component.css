@@ -1,0 +1,39 @@
+:root {
+    --brand_1: #4263EB;
+    --brand_2: #364FC7;
+
+    --grey_0: #0A0C0D;
+    --grey_1: #212529;
+    --grey_2: #495057;
+    --grey_3: #868E96;
+    --grey_4: #DEE2E6;
+
+    --grey_opacity_1: rgba(33, 37, 41, 0.5);
+
+    --with: #FFFFFF;
+
+    --like: #D7443E;
+
+    --title_1_weight: 700;
+    --title_1_font: 28px;
+
+    --title_2_weight: 600;
+    --title_2_font: 20px;
+
+    --text1_w: 400;
+    --text1_f: ;
+
+    --text2_w: 400;
+    --text2_f: 14px; 
+
+    --input_border_radius: 4px;
+    --input_boder: 2px solid #DEE2E6;
+    --input_heigh: 52px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}

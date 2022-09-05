@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/component.css">
+    <link rel="stylesheet" href="../styles/homepage.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../assets/TechPosters.png" alt="imagem da logo">
+        <p>Sair</p>
+    </header>
+    <main>
+        <section class="main--creat__post">
+            <div id="user_informations">
+            </div>
+            <form>
+                <input type="text" placeholder="Digitar o título do post" id="post_title">
+                <textarea type="text" placeholder="Digitar corpo post" id="post_body" rows="4"></textarea>
+                <button id="postar">Postar</button>
+            </form>
+        </section>
+        <section class="main--follow__sugestion">
+            <h2>Sugestões para você seguir</h2>
+            <div id="sugestion_to_follow">
+            </div>
+        </section>
+        <section class="main--section--posts">
+            <h2>Post</h2>
+            <div class="main__posts">
+                <div class="post">
+                    <div class="post--header">
+                        <img src="../assets/foto 1.png" alt="foto de pessoa">
+                        <div>
+                            <div>
+                                <h2>User Name</h2>
+                            </div>
+                            <p>O que pessoa faz</p>
+                        </div>
+                    </div>
+                    <h3>Como criar um interface simples e agradável utilizando boas práticas de design</h3>
+                    <p>
+                        Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por um profissional de UI design.
+                    </p>
+                    <div class="post_info">
+                        <button>Abrir Post</button>
+                        <div class="like_counter">
+                            <img src="../assets/heartBlack.png" alt="imagem de coração">
+                            <p>25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="../scripts/homepage.js"></script>
+</body>
+</html>

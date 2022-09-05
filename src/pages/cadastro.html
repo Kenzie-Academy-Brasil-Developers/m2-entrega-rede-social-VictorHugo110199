@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/component.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../assets/TechPosters.png" alt="imagem da logo">
+        <div>
+            <button id="login">Login</button>
+            <button id="ativo">Registro</button>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Cadastro</h1>
+            <form>
+                <input type="text" placeholder="Seu nome" id="nome">
+                <input type="email" placeholder="Seu e-mail" id="email">
+                <input type="password" placeholder="Sua senha" id="senha">
+                <input type="text" placeholder="Qual seu trabalho?" id="trabalho">
+                <input type="text" placeholder="URL da imagem de perfil" id="img">
+                <button id="cadastrar">Registrar</button>
+                <p>Já possui login</p>
+                <button id="ir_para">Ir para página de Login</button>
+            </form>
+        </div>
+
+    </main>
+    <script type="module" src="../scripts/cadastro.js"></script>
+</body>
+</html>

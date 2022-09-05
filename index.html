@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/component.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
     <title>Rede Social</title>
 </head>
 <body>
-    
+    <header>
+        <img src="./src/assets/TechPosters.png" alt="imagem da logo">
+        <div>
+            <button id="ativo">Login</button>
+            <button id="registro">Registro</button>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Login</h1>
+            <form action="">
+                <input type="email" name="" placeholder="Seu e-mail" id="email">
+                <input type="password" name="" placeholder="Sua senha" id="senha">
+                <button id="btn_logar">Logar</button>
+                <p>Ainda não possui cadastro</p>
+                <button id="irPara">Ir para página de registro</button>
+            </form>
+        </div>
+
+    </main>
+    <script type="module" src="./src/scripts/index.js"></script>
 </body>
 </html>
